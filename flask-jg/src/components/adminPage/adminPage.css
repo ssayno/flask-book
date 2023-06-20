@@ -1,0 +1,56 @@
+#account-dashboard{
+
+}
+
+#account-dashboard > h2{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(83,241,104,0.88);
+}
+#account-dashboard > .admin-dashboard > h3{
+    text-align: center;
+}
+#account-dashboard > .normal-user-dashboard > h3{
+    text-align: center;
+}
+#nud-table{
+    width: 50%;
+    margin: auto;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+#nud-table tr{
+}
+#nud-table td{
+    border: 1px solid grey;
+    text-align: center;
+}
+#nud-table input,
+#nud-table select{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+    border: none 0;
+    outline: none;
+}
+#save-normal-user-modified{
+    display: block;
+    width: 60px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+#save-result-show{
+    text-align: center;
+}
+
+#nud-table .icon-box{
+    display: inline-block;
+    vertical-align: middle;
+}
+#nud-table .specifyLine{
+    width: 40px;
+}
+
